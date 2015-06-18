@@ -52,7 +52,7 @@
     if (self.userLabel.text) {
         [super login];
     }
-    else
+    else//提示用户没有输入用户名
         [MBProgressHUD showError:@"您没有输入用户名" toView:self.view];
 
     
